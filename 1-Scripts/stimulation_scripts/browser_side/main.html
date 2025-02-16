@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link href="css/style_animation_sequences_geometry.css" rel="stylesheet" />
+    <!-- Include Axios via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Experiment Started</title>
+  </head>
+  <body class="no--zoom">
+    <div class="container-figure no--zoom">
+      <div class="text-container no--zoom"></div>
+      <div class="hidden" id="progression--bar">
+        <div class="chart">
+          <div class="bar"></div>
+
+          <span id="value1">0</span>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/data/delete_later.js"></script>
+    <script src="scripts/data/participant_data_class.js"></script>
+    <script src="scripts/data/experiment_data.js"></script>
+    <script src="scripts/data/geometry_sequences.js"></script>
+    <script src="scripts/functions/experiment_dynamics_functions.js"></script>
+    <script src="scripts/functions/geometry_functions.js"></script>
+    <script src="scripts/run_experiment.js"></script>
+  </body>
+</html>
